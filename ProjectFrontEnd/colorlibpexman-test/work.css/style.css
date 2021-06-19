@@ -550,7 +550,7 @@
     font-family: sans-serif;
 }
 .photo-1{
-    width: 350px;
+    width: 100%;
     height: 330px;
     background-image: url(../img/xwork-1.jpg.pagespeed.ic.3j7JGYqbGF.webp);
     position: relative;
@@ -608,7 +608,7 @@
     color: white;
 }
 .photo-2{
-    width: 350px;
+    width: 100%;
     height:330px;
     background-image: url(../img/xwork-2.jpg.pagespeed.ic.10n42M66q2.webp);
     position: relative;
@@ -665,7 +665,7 @@
     color: white;
 }
 .photo-3{
-    width: 350px;
+    width: 100%;
     height: 330px;
     background-image:url(../img/xwork-3.jpg.pagespeed.ic.RnZ9RkAZUD.webp);
     position: relative;
@@ -722,7 +722,7 @@
     color: white;
 }
 .photo-4{
-    width: 350px;
+    width: 100%;
     height: 330px;
     background-image: url(../img/xwork-4.jpg.pagespeed.ic.RrfN8RD85H.webp);
     position: relative;
@@ -780,7 +780,7 @@
     color: white;
 }
 .photo-5{
-    width: 350px;
+    width: 100%;
     height: 330px;
     background-image: url(../img/red-5.jpg.webp);
     position: relative;
@@ -837,9 +837,9 @@
     color: white;
 }
 .photo-6{
-    width: 350px;
+    width: 100%;
     height: 330px;
-    background-image: url(../img/xwork-2.jpg.pagespeed.ic.10n42M66q2.webp);
+    background-image: url(../img/xwork-6.jpg.pagespeed.ic.RupLEjxNLP.webp);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -894,7 +894,7 @@
     color: white;
 }
 .photo-7{
-    width: 350px;
+    width: 100%;
     height: 330px;
     background-image: url(../img/work-7.jpg.webp);
     position: relative;
@@ -951,7 +951,7 @@
     color: white;
 }
 .photo-8{
-    width: 350px;
+    width: 100%;
     height: 330px;
     background-image: url(../img/xwork-8.jpg.pagespeed.ic.BEEvFj7ItC.webp);
     position: relative;
@@ -1079,6 +1079,7 @@
 .our-lates-section{
     background-color:whitesmoke;
     font-family: "Montserrat", Arial, sans-serif;
+    padding-bottom: 10%;
 }
 .latest-news-block{
     font-family: sans-serif;
@@ -1314,7 +1315,7 @@
 }
 .footer-pexman-box{
     width: 74%;
-    height:85%;
+    height:76%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -1342,15 +1343,28 @@
     margin-top: 20px;
 }
 .footer-icons {
-    width: 150px;
+    width: 185px;
     display: flex;
     justify-content: space-around;
     color: #1c1919;
     list-style: none;
 }
-.footer-pexman li{
-    font-size: 50px;
+.footer-icons li{
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    color: white;
     margin-top: 20px;
+    background-color: rgb(58, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.footer-icons li:hover{
+    color: black;
+    background-color: white;
+    transition: all ease 0s;
 }
 .footer-navigation{
     color: white;
@@ -1404,6 +1418,7 @@
     display: flex;
     width: 230px;
     line-height: 1.8;
+    padding-top: 5px;
 }
 .fa-phone-alt{
     color: #d9bf77;
@@ -1413,4 +1428,15 @@
     color: #d9bf77;
     margin-right: 10px;
 }
-
+.footer-last-text{
+    display: flex;
+    justify-content: center;
+    color:#777;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    height: 100px;
+    font-weight: bold;
+}
+.footer-last-text span{
+    color: #d9bf77;
+}
