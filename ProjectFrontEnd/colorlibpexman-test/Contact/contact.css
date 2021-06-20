@@ -1,0 +1,335 @@
+@import url(../css-file/grid.css);
+@import url(../css-file/spacing.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nopadding{
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+.parent{
+    background-image: url(../img/xbg_1.jpg.pagespeed.ic.Ojq-dWQTjg.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+.bigchild{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 39px;
+    z-index: 20;
+}
+.headerlogo{
+    line-height: 13px;
+}
+.headerpexman{
+    color: white;
+    font-size: 26px;
+    margin-left: 2px;
+}
+.headerlogo span{
+    color:#d9bf77;
+    font-size: 11px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.header-navbar{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.header-navbar .goldcontact a{
+    color: #d9bf77;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.header-navbar li a{
+    color:#999;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-navbar li a:hover{
+    color: whitesmoke;
+    transition: all is ease 0s;
+}
+.contact-header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    letter-spacing: 2px;
+    height: 150px;
+}
+.contact-header a{
+    text-decoration: none;
+    color: #9e9b9b;
+}
+.contact-home:hover{
+    color: #d9bf77;
+    transition: all is ease 0s;
+}
+.contact-header span{
+    color: #9e9b9b;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    z-index: 6;
+}
+.contact{
+    font-size: 52px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    line-height: 1.9;
+    margin-right: 7px;
+}
+.contact-us-box1{
+    margin-top: 5%;
+    margin-left: 20px;
+}
+    
+.contact-us-box1 h2 {
+    font-size: 30px;
+    font-family:sans-serif;
+    padding-bottom: 20px;
+}
+.contact-us-box1 p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.contact-us-box2{
+    display: flex;
+    margin-top: 3%;
+    margin-left:20px ;
+}
+.contact-us-box2 h4{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    width:212px;
+    line-height: 1.8;
+    font-weight: inherit;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.adress p{
+    color: gray;
+    font-family: sans-serif;
+}
+.email{
+    padding-left: 10%;
+}
+.email p{
+    color: black;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+.phone{
+    margin-left:10%;
+    padding-bottom:20px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+.form-group input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    transition: ease 0.4s;
+}
+.form-group input:focus{
+    border-bottom:1px solid  #d9bf77;
+}
+.form-group input,textarea:focus{
+    outline:none;
+}
+.form-group textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 40px;
+}
+.form-group textarea :focus{
+    border-bottom:1px solid  #d9bf77;
+}
+.form-group button{
+    width: 160px;
+    padding: 10px;
+    background-color: #d9bf77;
+    text-transform: uppercase;
+    border: none;
+    cursor:pointer;
+    margin-top: 20px;
+}
+.footer-bigblock{
+    background-color: black;
+}
+.footer-pexman{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-pexman-box{
+    width: 74%;
+    height:77%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.footer-pexman1 {
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-top: 50px;
+}
+.footer-pexman1:hover{
+    color: #d9bf77;
+    transition: all is ease 0s;
+}
+.footer-pexman p{
+    font-size: 20px;
+    color: #777;
+    font-family: sans-serif;
+    margin-top: 45px;
+}
+.contact-us h2{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+.footer-icons {
+    width: 185px;
+    display: flex;
+    justify-content: space-around;
+    color: #1c1919;
+    list-style: none;
+}
+.footer-icons li{
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(58, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.footer-icons li:hover{
+    color: black;
+    background-color: white;
+    transition: all ease 0s;
+}
+.footer-navigation{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.footer-navbar-block{
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer-navbar-block li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-navbar-block li a:hover{
+    color: #d9bf77;
+    transition: all is ease 0s;
+}
+.footer-navbar{
+    color: gray;
+    width: 287px;
+    height: 200px;
+    list-style: none;
+    line-height:1.9;
+}
+.footer-navbar2{
+    color: gray;
+    list-style: none;
+    line-height: 1.9;
+}
+.footer-question{
+    color: white;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.footer-question-text{
+    color:gray;
+    font-family: sans-serif;
+    list-style: none;
+    line-height: 1.9;
+    margin-top: 35px;
+}
+.fa-map-marked-alt{
+    color: #d9bf77;
+    margin-right: 10px;
+}
+.footer-question-text li {
+    display: flex;
+    width: 230px;
+    line-height: 1.8;
+    padding-top: 5px;
+}
+.fa-phone-alt{
+    color: #d9bf77;
+    margin-right: 10px;
+}
+.fa-paper-plane{
+    color: #d9bf77;
+    margin-right: 10px;
+}
+.footer-last-text{
+    display: flex;
+    justify-content: center;
+    color:#777;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    height: 100px;
+    font-weight: bold;
+}
+.footer-last-text span{
+    color: #d9bf77;
+}
