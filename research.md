@@ -114,3 +114,62 @@
 [Void](https://www.youtube.com/watch?v=Bohe_gZsZiY)
 [Dict, List və Tuple](https://www.youtube.com/watch?v=DG6fn7CoF_k)
 [dovrler](https://www.youtube.com/watch?v=hRHLH-YA8Sg)
+
+
+
+
+
+
+
+## HOMEWORK
+
+
+#### Deyishgenler ve tipleri 
+
+- str : "Azerbaycan"
+
+- int : 5
+
+- float : 1.8
+
+#### String tip deyishgenlerde dirnaqlarin ferqi 
+
+- "isteye gore qosha" ve 'tek dirnaqda da yaza bileriy stringleri' 
+
+- Yazacagimiz cumlede birshey qeyd etmeli olsaq eger stringler qosha dirnaqla yazilibsa icindeki qeyd tek dirnaqla yazilmalidi eger eksine tek dirnaqla yazilibsa qosha dirnaqla qeyd etmeliyik .
+
+#### Dəyişkənlərin built-in metodları (len(), type(), format() və s.)
+
+- len : verilenlerin uzunlugunu bize qaytarir.
+
+- type :bize verdiyimiz deyerin hansi tipde oldugunu gosterir.
+
+- 
+
+#### Casting (Dəyişkən tipinin dəyişdirilməsi)
+ 
+ - print yaziriq moterize achib ichine meselchun str yazirq ve yene moterize achib ichine int tipinde bir deyishen qoyuruq .
+
+### İstifadəçidən input almaq (İnput)
+
+- input yaziriq moterize achiriq ve dirnaq ichinde meselchun adini yazmagimizi isteyiriy .
+
+### Boolean dəyərlər
+
+- true ve ya false deyeri verir
+
+### Pythonda operatorlar
+
+- +-%*=/
+
+### -Condition Statements (if, elif, else)
+
+- if e shert yaziriq odenmedikde bu shert elif bu shert de odenmedikde else yazirig.
+
+### y = “4.92” stringini integere çevirin.
+
+- "4.94" stringini str tipinden int tipine chevire bilmerik chunku int tipinde noqte ve herflerden istifade etmek olmaz.
+
+### 
+
+29.06.2021.
