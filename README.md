@@ -1,1 +1,1 @@
-# pragmatech-foundation-project
+# PragmatechFoundationProject
