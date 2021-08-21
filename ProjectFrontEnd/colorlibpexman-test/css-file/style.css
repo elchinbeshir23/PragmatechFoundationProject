@@ -100,20 +100,17 @@
     margin-top: 50px;
     color:#999 ;
 }
-.textbox-btn{
+.btn-portfolio{
     width: 293px;
     height: 64px;
     margin-top: 48px;
-    padding-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #d9bf77;
-}
-.btn-portfolio{
-    color: black;
-    padding-bottom: 17px;
-
+    font-size: 17px;
+    margin-right: 15px;
+    padding-right: 21px;
 }
 .textbox-btn a{
     text-decoration: none;
@@ -156,13 +153,14 @@
 .welcome-text p:nth-child(2){
     margin-top: 12px;
 }
-.start-a-project-btn{
+.start-a-project-btn-f{
     width: 293px;
     height: 68px;
     background-color:#d9bf77;
     color: black;
-    padding: 22px 45px;
     margin-top: 45px;
+    font-size: 17px;
+    padding-right: 21px;
 }
 .welcome-pexman-photo{
     background-image: url(../img/xabout.jpg.pagespeed.ic.8p3LFl59dX.webp);
@@ -392,7 +390,6 @@
     justify-content: center;
     align-items: center;
     background: #d9bf77;
-    color: black;
     padding-right: 25px
 }
 .icon-and-text{

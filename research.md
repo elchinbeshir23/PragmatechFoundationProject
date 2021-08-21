@@ -170,6 +170,14 @@
 
 - "4.94" stringini str tipinden int tipine chevire bilmerik chunku int tipinde noqte ve herflerden istifade etmek olmaz.
 
-### 
 
-29.06.2021.
+
+
+## Reasearch  "JavaScript String properties"
+
+- Constructor : bize stringin constructor funksiyasini qaytarir
+
+- Length      : stringin uzunlugunu qaytarir
+
+- prototype   : bize bir obyekte xususiyyetler ve methodlar elave etmek imkani verir
+
