@@ -168,12 +168,12 @@
 
 ### y = “4.92” stringini integere çevirin.
 
-- "4.94" stringini str tipinden int tipine chevire bilmerik chunku int tipinde noqte ve herflerden istifade etmek olmaz.
+- "4.94" stringini str tipinden int tipine chevirmek ucun once float tipine chevirmeliyik sonra int tipine
 
 
 
 
-## Reasearch  "JavaScript String properties"
+## Research  "JavaScript String properties"
 
 - Constructor : bize stringin constructor funksiyasini qaytarir
 
@@ -181,3 +181,12 @@
 
 - prototype   : bize bir obyekte xususiyyetler ve methodlar elave etmek imkani verir
 
+### Research "JavaScript String methods"
+
+- charAt()           : chagirdigimiz indexdeki deyeri verir 
+
+- charCodeAt()       : bize indexdeki deyerin kodunu verir
+
+- concat()           : iki ve daha chox stringi bir birine qoshur ve yeni string olur
+
+-                    :
