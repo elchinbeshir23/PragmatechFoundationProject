@@ -189,4 +189,39 @@
 
 - concat()           : iki ve daha chox stringi bir birine qoshur ve yeni string olur
 
--                    :
+
+
+
+
+# .txt faylina  melumatin kochurulmesi 
+ - ad=input("adinizi daxil edin : ")
+ - soyad=input("soyadinizi daxil edin : ")
+ - adSoyad=f'{ad} / {soyad} \n'
+ - f deyisheni yazib open() methodu ile txt fayli qururuq ve vergul qoyub "a" yazdiqda append edir, 
+ - "r" yazdiqda read,"w" yazdiqda yazilan fayli silib ustune yazir.
+ - f=open("data.txt","a")
+ - f.write(adSoyad)
+
+
+
+ # f"{}" bu  .format methodunun yeni usuludur
+ - a=input("adinizi daxil edin : ")
+ - print(f'{a} xosh gelmisen')
+
+
+ 
+ ## class 
+ <!-- class telebe:
+    # __init__ jscript deki constructor-du 
+   def __init__(self,ad,soyad,yash):
+       self.ad=ad
+       self.soyad=soyad
+       self.yash=yash
+
+   def  fullName(self):
+        print(f"{self.ad} | {self.soyad} | {self.yash}")
+    
+tlb=telebe("elchin","beshirzade","23")
+tlb2=telebe("elvin","beshir","54")
+
+tlb2.fullName() -->

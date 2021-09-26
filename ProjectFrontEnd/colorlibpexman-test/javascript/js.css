@@ -1,0 +1,44 @@
+
+/* .overlay{
+    background:rgba( 0, 0 , 0, .5);
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.modal-content{
+    width: 300px;
+    padding: 30px;
+    background: white;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+} */
+
+/* .box{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.TeamMembers{
+    width: 300px;
+    height: 350px;
+    border:2px solid black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: goldenrod;
+    border: 3px solid green;
+}
